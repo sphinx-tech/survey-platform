@@ -16,17 +16,17 @@ A MERN stack Survey Application developed over Surveyjs  and Auth0 for User-Auth
 
 ## Overview
 
-The Survey Application allows you to create surveys, and respond to survey questions. The application utilizes React.js for the frontend user interface, Node.js for the backend server, and MongoDB to store survey data.
+The platform incorporates [User-Authentication], [Survey Management System] and [Real-time Updates].
+Configurable Survey Style and automated flow management - SurveyJS 
+User-Authentication - Auth0
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following prerequisites installed:
 
 - Node.js and npm (Node Package Manager)
 
-### Usage
+## Usage
 
 1. Install Dependencies
 
@@ -51,8 +51,8 @@ Before you begin, ensure you have the following prerequisites installed:
 7. Once submitted, the survey cannot be edited.
 
 screenshot
-![Alt text](./ss/s1.png.png)
-![Alt text](./ss/s2.png-1.png)
-![Alt text](./ss/s3.png-2.png)
+![Alt text](./ss/s1.png)
+![Alt text](./ss/s2.png)
+![Alt text](./ss/s3.png)
 
 ---
