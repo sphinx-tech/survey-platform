@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { CodeSnippet } from "../components/code-snippet";
 import { PageLayout } from "../components/page-layout";
 import { getAdminResource } from "../services/message.service";
+import { Link } from "react-router-dom";
 
 export const AdminPage = () => {
   const [message, setMessage] = useState("");
@@ -36,13 +37,14 @@ export const AdminPage = () => {
     <PageLayout>
       <div className="content-layout">
         <h1 id="page-title" className="content__title">
-          Admin Page
+          Survey Collection
         </h1>
         <div className="content__body">
           <p id="page-description">
-            <span>
-              This page retrieves an <strong>admin message</strong> from an
-              external API.
+          <span>
+            <Link to="/survey-dashboard"> "Click here" </Link>
+              to view the <code>User Responses</code> of all 
+              the surveys participated.
             </span>
             <span>
               <strong>

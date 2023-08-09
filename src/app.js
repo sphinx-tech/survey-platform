@@ -10,6 +10,10 @@ import { NotFoundPage } from "./pages/not-found-page";
 import { ProfilePage } from "./pages/profile-page";
 import { ProtectedPage } from "./pages/protected-page";
 import { PublicPage } from "./pages/public-page";
+import { SurveyCollection } from "./pages/survey-dashboard-page";
+import { ListOfSurveys } from "./pages/survey-collection-page";
+import { SurveyComponent1 } from "./components/survey-templates/survey-1/survey-compononent-1";
+
 
 export const App = () => {
   const { isLoading } = useAuth0();
@@ -38,8 +42,21 @@ export const App = () => {
         path="/admin"
         element={<AuthenticationGuard component={AdminPage} />}
       />
+
       <Route path="/callback" element={<CallbackPage />} />
       <Route path="*" element={<NotFoundPage />} />
+      <Route 
+        path="/survey-1"
+        element={<AuthenticationGuard component={SurveyComponent1} />}
+      />
+      <Route
+        path="/survey-dashboard"
+        element={<AuthenticationGuard component={SurveyCollection} />}
+      />
+      <Route path ='/survey-collection' element={ListOfSurveys}/>
+
+
+
     </Routes>
   );
 };

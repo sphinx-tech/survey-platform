@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { CodeSnippet } from "../components/code-snippet";
 import { PageLayout } from "../components/page-layout";
 import { getPublicResource } from "../services/message.service";
+import { Link } from "react-router-dom";
 
 export const PublicPage = () => {
   const [message, setMessage] = useState("");
@@ -36,13 +37,12 @@ export const PublicPage = () => {
     <PageLayout>
       <div className="content-layout">
         <h1 id="page-title" className="content__title">
-          Public Page
+          Organization's Public Info
         </h1>
         <div className="content__body">
           <p id="page-description">
             <span>
-              This page retrieves a <strong>public message</strong> from an
-              external API.
+              No need of autorication to view a <strong>public message</strong>
             </span>
             <span>
               <strong>Any visitor can access this page.</strong>

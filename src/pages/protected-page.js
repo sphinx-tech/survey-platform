@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { CodeSnippet } from "../components/code-snippet";
 import { PageLayout } from "../components/page-layout";
 import { getProtectedResource } from "../services/message.service";
+import { Link } from "react-router-dom";
 
 export const ProtectedPage = () => {
   const [message, setMessage] = useState("");
@@ -40,9 +41,9 @@ export const ProtectedPage = () => {
         </h1>
         <div className="content__body">
           <p id="page-description">
-            <span>
-              This page retrieves a <strong>protected message</strong> from an
-              external API.
+          <span>
+            <Link to="/survey-1"> "Click here" </Link>
+              to fill out the <code>survey form</code>.
             </span>
             <span>
               <strong>Only authenticated users can access this page.</strong>

@@ -10,18 +10,9 @@ export const HeroBanner = () => {
       </div>
       <h1 className="hero-banner__headline">Hello, React World!</h1>
       <p className="hero-banner__description">
-        This is a sample application that demonstrates the authentication flow
-        for React apps using <strong>Auth0</strong>.
+        A survey application with <strong> User authentication </strong>
+        and <strong>Survey compilations</strong>.
       </p>
-      <a
-        id="code-sample-link"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://developer.auth0.com/resources/code-samples/spa/react/basic-authentication"
-        className="button button--secondary"
-      >
-        Check out the React code sample →
-      </a>
     </div>
   );
 };

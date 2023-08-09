@@ -1,11 +1,58 @@
-# React/JavaScript: Basic User Authentication Code Sample
 
-This JavaScript code sample demonstrates **how to implement user authentication** in React applications using Auth0. This React code sample builds the Single-Page Application (SPA) using the React Router 6 library.
 
-This code sample is part of the ["Auth0 Developer Resources"](https://developer.auth0.com/resources), a place where you can explore the authentication and authorization features of the Auth0 Identity Platform.
+# Survey Application
 
-Visit the ["React/JavaScript + React Router 6 Code Sample: User Authentication For Basic Apps"](https://developer.auth0.com/resources/code-samples/spa/react/basic-authentication) page for instructions on how to configure and run this code sample and how to integrate it with an API server of your choice to [create a full-stack code sample](https://developer.auth0.com/resources/code-samples/full-stack/hello-world/basic-access-control/spa).
+A MERN stack Survey Application developed over Surveyjs  and Auth0 for User-Authentication 
 
-## Why Use Auth0?
+## Table of Contents
 
-Auth0 is a flexible drop-in solution to add authentication and authorization services to your applications. Your team and organization can avoid the cost, time, and risk that come with building your own solution to authenticate and authorize users. We offer tons of guidance and SDKs for you to get started and [integrate Auth0 into your stack easily](https://developer.auth0.com/resources/code-samples/full-stack).
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#Setup)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+The Survey Application allows you to create surveys, and respond to survey questions. The application utilizes React.js for the frontend user interface, Node.js for the backend server, and MongoDB to store survey data.
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following prerequisites installed:
+
+- Node.js and npm (Node Package Manager)
+
+### Usage
+
+1. Install Dependencies
+
+   ```sh
+   npm install
+   npm install cors body-parser
+   npm install express
+   npm install survey-react-ui
+   npm start
+   ```
+
+2. Open your web browser and navigate to `http://localhost:4040`.
+
+3. Click on the "Sign Up" button. (Log in if already signed up)
+
+4. Check the credentials in Profile Page and policies in Company Portal. 
+
+5. Navigate to the "Fill Survey" tab and proceed to particiapte in the survey. 
+
+6. The collection of results in all the surveys participated by a user will be listed in "Surveys Participated tab".
+
+7. Once submitted, the survey cannot be edited.
+
+screenshot
+![Alt text](./ss/s1.png.png)
+![Alt text](./ss/s2.png-1.png)
+![Alt text](./ss/s3.png-2.png)
+
+---

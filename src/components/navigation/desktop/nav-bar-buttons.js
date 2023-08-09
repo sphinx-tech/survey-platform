@@ -3,6 +3,7 @@ import React from "react";
 import { LoginButton } from "../../buttons/login-button";
 import { LogoutButton } from "../../buttons/logout-button";
 import { SignupButton } from "../../buttons/signup-button";
+import { FillSurveyButton } from "../../buttons/fillsurvey-button";
 
 export const NavBarButtons = () => {
   const { isAuthenticated } = useAuth0();
@@ -17,6 +18,7 @@ export const NavBarButtons = () => {
       )}
       {isAuthenticated && (
         <>
+          {/* <FillSurveyButton/> */}
           <LogoutButton />
         </>
       )}

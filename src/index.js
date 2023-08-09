@@ -5,6 +5,7 @@ import { App } from "./app";
 import { Auth0ProviderWithNavigate } from "./auth0-provider-with-navigate";
 import "./styles/styles.css";
 
+
 const container = document.getElementById("root");
 const root = createRoot(container);
 
