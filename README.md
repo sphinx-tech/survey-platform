@@ -16,9 +16,9 @@ A MERN stack Survey Application developed over Surveyjs  and Auth0 for User-Auth
 
 ## Overview
 
-The platform incorporates [User-Authentication], [Survey Management System] and [Real-time Updates].
-Configurable Survey Style and automated flow management - SurveyJS 
-User-Authentication - Auth0
+The platform incorporates [User-Authentication], [Survey Management System] and [Real-time Updates]. <br />
+Configurable Survey Style and automated flow management - SurveyJS <br />
+User-Authentication - Auth0 <br />
 
 ## Prerequisites
 
