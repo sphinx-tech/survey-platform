@@ -44,11 +44,17 @@ Before you begin, ensure you have the following prerequisites installed:
 
 4. Check the credentials in Profile Page and policies in Company Portal. 
 
-5. Navigate to the "Fill Survey" tab and proceed to particiapte in the survey. 
+5. Start server
+    ```sh
+    cd ./src/services
+    node server.js
+    ```
+    
+6. Navigate to the "Fill Survey" tab and proceed to particiapte in the survey. 
 
-6. The collection of results in all the surveys participated by a user will be listed in "Surveys Participated tab".
+7. The collection of results in all the surveys participated by a user will be listed in "Surveys Participated tab".
 
-7. Once submitted, the survey cannot be edited.
+8. Once submitted, the survey cannot be edited.
 
 screenshot
 ![Alt text](./ss/s1.png)
